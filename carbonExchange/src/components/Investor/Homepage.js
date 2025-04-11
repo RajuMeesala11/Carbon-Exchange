@@ -140,36 +140,67 @@ function LandingPage() {
 
       {/* Investment ROI */}
       <section className="container my-3">
-  <h2
-    style={{
-      color: 'darkgreen',
-      fontWeight: 'bold',
-      marginBottom: '1rem',
-      fontSize: '2rem', // Increased heading font size
-    }}
-  >
-    Investment ROI
-  </h2>
-  <div
-    style={{
-      // Removed backgroundColor: 'darkgreen'
-      // color: 'white'
-      // Instead, let the default page background show
-      borderRadius: '8px',
-      fontSize: '1.2rem', // Increased body font size
-      color: '#2f4f4f',   // Dark gray-green for text
-      padding: '1rem',
-    }}
-  >
-    <p style={{ marginBottom: '0.5rem' }}>
-      Our platform provides data-driven insights into potential returns from 
-      carbon capture projects. By investing now, you can capitalize on:
-    </p>
-    <ul style={{ paddingLeft: '1.5rem' }}>
-      <li style={{ marginBottom: '0.5rem' }}>Projected 10-15% annual growth in carbon credit valuations</li>
-      <li style={{ marginBottom: '0.5rem' }}>Long-term environmental and economic sustainability</li>
-      <li style={{ marginBottom: '0.5rem' }}>Diversification benefits across green tech sectors</li>
-    </ul>
+  <div >
+    <div >
+      <h2
+        style={{
+          color: 'darkgreen',
+          fontWeight: 'bold',
+          marginBottom: '0.1rem',
+          fontSize: '2rem', // Increased heading font size
+        }}
+      >
+        Investment ROI
+      </h2>
+      <div
+        style={{
+          borderRadius: '8px',
+          fontSize: '1.2rem', // Increased body font size
+          color: '#2f4f4f',   // Dark gray-green for text
+          padding: '1rem',
+        }}
+      >
+        <p style={{ marginBottom: '0.5rem' }}>
+          Carbon credits are projected to reduce from an average of <strong>$150</strong> per ton to <strong>$100</strong> per ton by 2030.
+        </p>
+
+        <h3
+          style={{
+            color: 'darkgreen',
+            fontWeight: 'bold',
+            marginTop: '1rem',
+            marginBottom: '1rem',
+            fontSize: '1.3rem',
+          }}
+        >
+          So why invest now?
+        </h3>
+
+        <p style={{ marginBottom: '0.5rem' }}>
+          As an early investor, your <strong>$150</strong> per ton investment in 2025 yields 10x more credits at <strong>$100</strong> per ton and a 5% annual yield on initial investment + 2% royalty on all future sales.
+        </p>
+
+        <h3
+          style={{
+            color: 'darkgreen',
+            fontWeight: 'bold',
+            marginBottom: '1rem',
+            fontSize: '1.3rem',
+          }}
+        >
+          Making your investment go from <strong>$150</strong> to <strong>$500</strong> in 5 years.
+        </h3>
+
+        <p style={{ marginBottom: '0.5rem' }}>
+          Our platform provides data-driven insights into potential returns from carbon capture projects. By investing now, you can capitalize on:
+        </p>
+        <ul style={{ paddingLeft: '1.5rem' }}>
+          <li style={{ marginBottom: '0.5rem' }}>Projected 10-15% annual growth in carbon credit valuations</li>
+          <li style={{ marginBottom: '0.5rem' }}>Long-term environmental and economic sustainability</li>
+          <li style={{ marginBottom: '0.5rem' }}>Diversification benefits across green tech sectors</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 

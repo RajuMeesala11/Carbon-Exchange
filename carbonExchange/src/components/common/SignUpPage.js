@@ -46,7 +46,7 @@ function SignUpPage() {
           </label>
           <input
             type="text"
-            placeholder="Enter your last name"
+            placeholder="Enter your last name "
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
             required
